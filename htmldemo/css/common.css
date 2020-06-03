@@ -1,0 +1,54 @@
+#div1 {
+    background-color: #ff631f;
+    width: 200px;
+    height: 200px;
+    border: 20px darkgreen;
+    padding: 20px;
+    margin: 20px;
+    /*  相对定位:相对原来正常的定位，不会释放被定位元素空间*/
+    /*position: relative;*/
+    /*top:200px;*/
+    /*left: 300px;*/
+
+    /*绝对定位:会释放被定为元素空间，相对已定位的高级，如果没有，则相对与body*/
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+}
+
+#div2 {
+    background-color: #ff631f;
+    width: 200px;
+    height: 200px;
+    border: 20px darkgreen;
+    margin: 20px;
+}
+#div3 {
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    border: 20px darkgreen;
+    padding: 10px;
+    margin-left: 20px;
+    /*  相对定位:相对原来正常的定位，不会释放被定位元素空间*/
+    /*position: relative;*/
+    /*top:200px;*/
+    /*left: 300px;*/
+
+    /*绝对定位:会释放被定为元素空间，相对已定位的高级，如果没有，则相对与body*/
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+}
+
+#div4{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 20px darkgreen;
+    position: sticky;
+    left: 0px;
+    top: 300px;
+}

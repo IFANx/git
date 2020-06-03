@@ -1,0 +1,35 @@
+#logo {
+    width: 100%;
+    height: 50px;
+    background-color: /*red*/ #ff5218 /*rgb(222,3,1)*/;
+}
+
+#logoin {
+    margin-left: 0px;
+    width: 16%;
+    height: 50px;
+    background-color: cornflowerblue;
+    position:absolute ;
+    right: 90%;
+}
+
+#search {
+    /*margin-right: 0px;*/
+    width: 16%;
+    height: 50px;
+    background-color: #3c4cff;
+    position:absolute;
+    left: 90%;
+}
+
+#index{
+    width: 100%;
+    height: 50%;
+    background-color: #ff8c43;
+}
+
+#indexin{
+    width: 50%;
+    height: 100%;
+    background-color: darkgrey;
+}
